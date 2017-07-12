@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>eecamp</title>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="/jquery.js"></script>
+		<script>
+			var socket = io();
+			socket.on('change', (num) => {
+				console.log('change to %s', num);
+			});
+		</script>
+	</head>
+	<body>
+
+	</body>
+</html>

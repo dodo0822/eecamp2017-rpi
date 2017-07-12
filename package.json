@@ -1,0 +1,23 @@
+{
+  "name": "eecamp2017-rpi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dodo0822/eecamp2017-rpi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dodo0822/eecamp2017-rpi/issues"
+  },
+  "homepage": "https://github.com/dodo0822/eecamp2017-rpi#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  }
+}
